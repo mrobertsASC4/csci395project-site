@@ -1,6 +1,6 @@
-## The Effect of the Lack of Mental Health Clinics on Homelessness
+## The Effect of the Lack of Health Clinics on Homelessness
 
-Watching the news and through everyday observation, there has been an increase in homelessness in neighborhoods that have limited access to mental health clinics, shelters and 
+Watching the news and through everyday observation, there has been an increase in homelessness in neighborhoods that have limited access to health clinics, shelters and 
 services. I am going to use my project to display the correlation between the number of mental health clinics in neighborhoods and the rate of homelessness, while also delving deeper and looking into specific areas/districts in the neighborhood and their homelessness rate, and compare them to its attendance in new people looking for shelter and the amount of homeless individuals that reside in shelters in the area, even with the clinics availaible. This data, in turn, would further my current solution to facilitate more health clinics in areas with a high rate of impoverishment, so that more individuals would start to reside in shelters.
 
 I downloaded the data I obtained as CSV files and have read them in as separate Dataframes. I have used pandas and its functions to use specific columns I need for my data. For starters, I started with my data on Homelessness Numbers from 2009-2012. This is how I parsed it to use what I needed:
