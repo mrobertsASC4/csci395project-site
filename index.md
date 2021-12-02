@@ -99,4 +99,4 @@ _This centers the map on Hunter's location. Then, I create a map using folium, a
 
 This map gives a visual representation of where the clinics are in NYC and shows the respective total amounts of homeless individuals and clinics in the specific borough.
 
-This is what I have so far, but I plan to include more analysis and visualizations once I get more of this data to cooperate. 
+This is what I have so far, but I plan to include more analysis and visualizations once I get more of this data to use and cooperate with.
