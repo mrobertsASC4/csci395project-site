@@ -1,0 +1,1424 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d9173d13067e4681bb7637a81054a51e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_d9173d13067e4681bb7637a81054a51e" ></div>
+        
+</body>
+<script>    
+    
+            var map_d9173d13067e4681bb7637a81054a51e = L.map(
+                "map_d9173d13067e4681bb7637a81054a51e",
+                {
+                    center: [40.7678, -73.9645],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                    scale: 13,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_bdd8f3b11d0e44599f3e56e4f255021b = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+            var marker_01f3aac898d4483896b339e330ba677e = L.marker(
+                [40.578468, -73.989614],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_4ea79987f3994ea38c96303048c021d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_38abc43480764b3f97f89112700733e1 = $(`<div id="html_38abc43480764b3f97f89112700733e1" style="width: 100.0%; height: 100.0%;">Ida G. Israel Community Health Center</div>`)[0];
+            popup_4ea79987f3994ea38c96303048c021d1.setContent(html_38abc43480764b3f97f89112700733e1);
+        
+
+        marker_01f3aac898d4483896b339e330ba677e.bindPopup(popup_4ea79987f3994ea38c96303048c021d1)
+        ;
+
+        
+    
+    
+            var marker_57b40423286d48d2bdf0176609f1c54f = L.marker(
+                [40.688615, -73.785593],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_d9456c40e72f4a7c9d18ebb4bcea1a38 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3477f5fb59b74f20999930c2523df42f = $(`<div id="html_3477f5fb59b74f20999930c2523df42f" style="width: 100.0%; height: 100.0%;">South Queens Community Health Center</div>`)[0];
+            popup_d9456c40e72f4a7c9d18ebb4bcea1a38.setContent(html_3477f5fb59b74f20999930c2523df42f);
+        
+
+        marker_57b40423286d48d2bdf0176609f1c54f.bindPopup(popup_d9456c40e72f4a7c9d18ebb4bcea1a38)
+        ;
+
+        
+    
+    
+            var marker_676c66b08a2243b1b32658eec019631e = L.marker(
+                [40.703826, -73.800483],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_ae0d5ac4f8984bdc9ff0d0d53bf7833a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_04e8adda3ef84ad5861d3f073fb9ca2f = $(`<div id="html_04e8adda3ef84ad5861d3f073fb9ca2f" style="width: 100.0%; height: 100.0%;">Parsons Communicare Clinic</div>`)[0];
+            popup_ae0d5ac4f8984bdc9ff0d0d53bf7833a.setContent(html_04e8adda3ef84ad5861d3f073fb9ca2f);
+        
+
+        marker_676c66b08a2243b1b32658eec019631e.bindPopup(popup_ae0d5ac4f8984bdc9ff0d0d53bf7833a)
+        ;
+
+        
+    
+    
+            var marker_e1464a911303451689446c820b465eb9 = L.marker(
+                [40.71725, -73.803433],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_2b808575c4764e70939b69b7ea084722 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_54921463afff47b09257ec04285b2cbb = $(`<div id="html_54921463afff47b09257ec04285b2cbb" style="width: 100.0%; height: 100.0%;">Queens Hospital Center</div>`)[0];
+            popup_2b808575c4764e70939b69b7ea084722.setContent(html_54921463afff47b09257ec04285b2cbb);
+        
+
+        marker_e1464a911303451689446c820b465eb9.bindPopup(popup_2b808575c4764e70939b69b7ea084722)
+        ;
+
+        
+    
+    
+            var marker_9bc4c9cf5bdd4990b5fa9146e75bb88f = L.marker(
+                [40.754179, -73.872231],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_584cb7e2476048fe85b130f376446c0a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_519a1b61082e4fefbbf543c2684b269f = $(`<div id="html_519a1b61082e4fefbbf543c2684b269f" style="width: 100.0%; height: 100.0%;">Junction Boulevard Child Health Clinic</div>`)[0];
+            popup_584cb7e2476048fe85b130f376446c0a.setContent(html_519a1b61082e4fefbbf543c2684b269f);
+        
+
+        marker_9bc4c9cf5bdd4990b5fa9146e75bb88f.bindPopup(popup_584cb7e2476048fe85b130f376446c0a)
+        ;
+
+        
+    
+    
+            var marker_4275aad02da2414ea5a0fe5cd24cdf21 = L.marker(
+                [40.700528, -73.941604],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_450615e2bd5d4c719db2796c25ea25af = L.popup({"maxWidth": "100%"});
+
+        
+            var html_799cd6064074401a979af7273ab93fdc = $(`<div id="html_799cd6064074401a979af7273ab93fdc" style="width: 100.0%; height: 100.0%;">Woodhull Medical and Mental Health Center</div>`)[0];
+            popup_450615e2bd5d4c719db2796c25ea25af.setContent(html_799cd6064074401a979af7273ab93fdc);
+        
+
+        marker_4275aad02da2414ea5a0fe5cd24cdf21.bindPopup(popup_450615e2bd5d4c719db2796c25ea25af)
+        ;
+
+        
+    
+    
+            var marker_668f2b2e82174128af8fbb5a6ef89879 = L.marker(
+                [40.694049, -73.934552],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_6c254a982deb437ea68a7059f95f2488 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6129a3b86d66432c9aa5eb1a005023c2 = $(`<div id="html_6129a3b86d66432c9aa5eb1a005023c2" style="width: 100.0%; height: 100.0%;">Eleanor Roosevelt Houses Child Health Clinic</div>`)[0];
+            popup_6c254a982deb437ea68a7059f95f2488.setContent(html_6129a3b86d66432c9aa5eb1a005023c2);
+        
+
+        marker_668f2b2e82174128af8fbb5a6ef89879.bindPopup(popup_6c254a982deb437ea68a7059f95f2488)
+        ;
+
+        
+    
+    
+            var marker_2deb2fe422b14798879b71797207b2b0 = L.marker(
+                [40.857427, -73.847079],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_39a992ab9062405baab7f9fe7e0d477f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_58183c8dbe924c4d95af0ee04097e74f = $(`<div id="html_58183c8dbe924c4d95af0ee04097e74f" style="width: 100.0%; height: 100.0%;">Jacobi Medical Center</div>`)[0];
+            popup_39a992ab9062405baab7f9fe7e0d477f.setContent(html_58183c8dbe924c4d95af0ee04097e74f);
+        
+
+        marker_2deb2fe422b14798879b71797207b2b0.bindPopup(popup_39a992ab9062405baab7f9fe7e0d477f)
+        ;
+
+        
+    
+    
+            var marker_c7761a7ffe6f43ccbb58dd0f39afbb9f = L.marker(
+                [40.784557, -73.94378],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_ed5ba8f18d93470dbebe39e897ba9728 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7334bdd02e7c46bd8691b9689b63748e = $(`<div id="html_7334bdd02e7c46bd8691b9689b63748e" style="width: 100.0%; height: 100.0%;">Metropolitan Hospital Center</div>`)[0];
+            popup_ed5ba8f18d93470dbebe39e897ba9728.setContent(html_7334bdd02e7c46bd8691b9689b63748e);
+        
+
+        marker_c7761a7ffe6f43ccbb58dd0f39afbb9f.bindPopup(popup_ed5ba8f18d93470dbebe39e897ba9728)
+        ;
+
+        
+    
+    
+            var marker_6a8ef5c15bd44cf3b7e118f254e4d3e4 = L.marker(
+                [40.694674, -73.919153],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_a6fe67597ba743629e2a331d8e0168b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a34604cb1f294da4ba9be66be2d1ff18 = $(`<div id="html_a34604cb1f294da4ba9be66be2d1ff18" style="width: 100.0%; height: 100.0%;">Bushwick Communicare</div>`)[0];
+            popup_a6fe67597ba743629e2a331d8e0168b9.setContent(html_a34604cb1f294da4ba9be66be2d1ff18);
+        
+
+        marker_6a8ef5c15bd44cf3b7e118f254e4d3e4.bindPopup(popup_a6fe67597ba743629e2a331d8e0168b9)
+        ;
+
+        
+    
+    
+            var marker_e1c60db61fb5470ead944fd4f1e77816 = L.marker(
+                [40.690361, -73.960108],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_688b980cd68149a2b89dc8f931280777 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d7a11646446849cfa980b6d5a96660cb = $(`<div id="html_d7a11646446849cfa980b6d5a96660cb" style="width: 100.0%; height: 100.0%;">Lafayette Houses Child Health Clinic</div>`)[0];
+            popup_688b980cd68149a2b89dc8f931280777.setContent(html_d7a11646446849cfa980b6d5a96660cb);
+        
+
+        marker_e1c60db61fb5470ead944fd4f1e77816.bindPopup(popup_688b980cd68149a2b89dc8f931280777)
+        ;
+
+        
+    
+    
+            var marker_6ee8c210709d4c288633387417fc85e4 = L.marker(
+                [40.671977, -73.895248],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_86a65462544e40cba2f28b1eaaee8ede = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6d3436d1244c4dbeaf4e6503bb61a273 = $(`<div id="html_6d3436d1244c4dbeaf4e6503bb61a273" style="width: 100.0%; height: 100.0%;">East New York Diagnostic & Treatment Center</div>`)[0];
+            popup_86a65462544e40cba2f28b1eaaee8ede.setContent(html_6d3436d1244c4dbeaf4e6503bb61a273);
+        
+
+        marker_6ee8c210709d4c288633387417fc85e4.bindPopup(popup_86a65462544e40cba2f28b1eaaee8ede)
+        ;
+
+        
+    
+    
+            var marker_648c9092b68b43f28120f1e6ee79feae = L.marker(
+                [40.712046, -73.943989],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_be573a1f26ba4fdb814c48e53b4e8dee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b61578fd10904e24817d4f8938e98fd0 = $(`<div id="html_b61578fd10904e24817d4f8938e98fd0" style="width: 100.0%; height: 100.0%;">Williamsburg Child Health Clinic</div>`)[0];
+            popup_be573a1f26ba4fdb814c48e53b4e8dee.setContent(html_b61578fd10904e24817d4f8938e98fd0);
+        
+
+        marker_648c9092b68b43f28120f1e6ee79feae.bindPopup(popup_be573a1f26ba4fdb814c48e53b4e8dee)
+        ;
+
+        
+    
+    
+            var marker_9bce7abf8ef54054bce7cca99c2338ee = L.marker(
+                [40.880462, -73.88164],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_30473afc92894039b545f1774c8ce2bf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_26431fd054864869b6f28eb15130ed49 = $(`<div id="html_26431fd054864869b6f28eb15130ed49" style="width: 100.0%; height: 100.0%;">North Central Bronx Hospital</div>`)[0];
+            popup_30473afc92894039b545f1774c8ce2bf.setContent(html_26431fd054864869b6f28eb15130ed49);
+        
+
+        marker_9bce7abf8ef54054bce7cca99c2338ee.bindPopup(popup_30473afc92894039b545f1774c8ce2bf)
+        ;
+
+        
+    
+    
+            var marker_aa5f6bd30510442984b9aed340b05873 = L.marker(
+                [40.814358, -73.940659],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_586552c0777e4fe68c56ed5eb427d39d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_abe9aeb53a7c4830889fecee9c1279cd = $(`<div id="html_abe9aeb53a7c4830889fecee9c1279cd" style="width: 100.0%; height: 100.0%;">Harlem Hospital Center</div>`)[0];
+            popup_586552c0777e4fe68c56ed5eb427d39d.setContent(html_abe9aeb53a7c4830889fecee9c1279cd);
+        
+
+        marker_aa5f6bd30510442984b9aed340b05873.bindPopup(popup_586552c0777e4fe68c56ed5eb427d39d)
+        ;
+
+        
+    
+    
+            var marker_f613f824e4ae4be889c3f77678ef167a = L.marker(
+                [40.659968, -73.939733],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_884874c0f25f431781ac2493e5efa0ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9b1defec23a94e6ebad632acbe335411 = $(`<div id="html_9b1defec23a94e6ebad632acbe335411" style="width: 100.0%; height: 100.0%;">Dr. Susan Smith McKinney Nursing and Rehabilitation Center</div>`)[0];
+            popup_884874c0f25f431781ac2493e5efa0ad.setContent(html_9b1defec23a94e6ebad632acbe335411);
+        
+
+        marker_f613f824e4ae4be889c3f77678ef167a.bindPopup(popup_884874c0f25f431781ac2493e5efa0ad)
+        ;
+
+        
+    
+    
+            var marker_923357089d734fc3961ee9c5bf32d281 = L.marker(
+                [40.744001, -73.858404],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_5c92b28a03604a26b72fddba9bf7b94d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_89cffbf1fec9457a9545cedb2448daa5 = $(`<div id="html_89cffbf1fec9457a9545cedb2448daa5" style="width: 100.0%; height: 100.0%;">Corona Child Health Clinic</div>`)[0];
+            popup_5c92b28a03604a26b72fddba9bf7b94d.setContent(html_89cffbf1fec9457a9545cedb2448daa5);
+        
+
+        marker_923357089d734fc3961ee9c5bf32d281.bindPopup(popup_5c92b28a03604a26b72fddba9bf7b94d)
+        ;
+
+        
+    
+    
+            var marker_692364fec19a41fd88e553744ff32159 = L.marker(
+                [40.593798, -74.135437],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_4c417b07e8cf4b4395b9a2150dfa5c1b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_048ed0b8d3b247c1b14ff9ce68c333f6 = $(`<div id="html_048ed0b8d3b247c1b14ff9ce68c333f6" style="width: 100.0%; height: 100.0%;">Sea View Hospital Rehabilitation Center & Home</div>`)[0];
+            popup_4c417b07e8cf4b4395b9a2150dfa5c1b.setContent(html_048ed0b8d3b247c1b14ff9ce68c333f6);
+        
+
+        marker_692364fec19a41fd88e553744ff32159.bindPopup(popup_4c417b07e8cf4b4395b9a2150dfa5c1b)
+        ;
+
+        
+    
+    
+            var marker_15cebea71d904f329a8a2caee9863ac8 = L.marker(
+                [40.678997, -73.754077],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_0aa5dbddba5742aea5280e0492d0e8ba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ef32aa9dff0e47e4a8357534324a624a = $(`<div id="html_ef32aa9dff0e47e4a8357534324a624a" style="width: 100.0%; height: 100.0%;">Springfield Gardens Medical Center</div>`)[0];
+            popup_0aa5dbddba5742aea5280e0492d0e8ba.setContent(html_ef32aa9dff0e47e4a8357534324a624a);
+        
+
+        marker_15cebea71d904f329a8a2caee9863ac8.bindPopup(popup_0aa5dbddba5742aea5280e0492d0e8ba)
+        ;
+
+        
+    
+    
+            var marker_1d47785d6fe74745b0fd2e9b24264316 = L.marker(
+                [40.835957, -73.919986],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_c9a48ff997a648fcbca0013e7b1e216f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf88c23cd39249568949b59db834436e = $(`<div id="html_bf88c23cd39249568949b59db834436e" style="width: 100.0%; height: 100.0%;">Morrisania Diagnostic & Treatment Center</div>`)[0];
+            popup_c9a48ff997a648fcbca0013e7b1e216f.setContent(html_bf88c23cd39249568949b59db834436e);
+        
+
+        marker_1d47785d6fe74745b0fd2e9b24264316.bindPopup(popup_c9a48ff997a648fcbca0013e7b1e216f)
+        ;
+
+        
+    
+    
+            var marker_fe6639a858704831b55d7529d7242c77 = L.marker(
+                [40.857427, -73.847079],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_de6472cf23024edca93274f254705a30 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8125a4389b284884891d76f28c68be98 = $(`<div id="html_8125a4389b284884891d76f28c68be98" style="width: 100.0%; height: 100.0%;">Jacobi Medical Center</div>`)[0];
+            popup_de6472cf23024edca93274f254705a30.setContent(html_8125a4389b284884891d76f28c68be98);
+        
+
+        marker_fe6639a858704831b55d7529d7242c77.bindPopup(popup_de6472cf23024edca93274f254705a30)
+        ;
+
+        
+    
+    
+            var marker_f1bea976fbe046deb5c653ebddd1ca09 = L.marker(
+                [40.655762, -73.94458],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_fd14793d063b433596b8b4d133cced83 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_66c9d5ee912f403db8a230eb66fa8207 = $(`<div id="html_66c9d5ee912f403db8a230eb66fa8207" style="width: 100.0%; height: 100.0%;">Kings County Hospital Center</div>`)[0];
+            popup_fd14793d063b433596b8b4d133cced83.setContent(html_66c9d5ee912f403db8a230eb66fa8207);
+        
+
+        marker_f1bea976fbe046deb5c653ebddd1ca09.bindPopup(popup_fd14793d063b433596b8b4d133cced83)
+        ;
+
+        
+    
+    
+            var marker_5cdb5e9d10484acc8ff2058e607fd70a = L.marker(
+                [40.7698, -73.941218],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_ccc1e9bc24444136b4b78c94288a54b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3e5d3dfc069e4ea0b13cd99ce451d831 = $(`<div id="html_3e5d3dfc069e4ea0b13cd99ce451d831" style="width: 100.0%; height: 100.0%;">Coler-Goldwater Specialty Hospital and Nursing Facility/Coler Campus</div>`)[0];
+            popup_ccc1e9bc24444136b4b78c94288a54b9.setContent(html_3e5d3dfc069e4ea0b13cd99ce451d831);
+        
+
+        marker_5cdb5e9d10484acc8ff2058e607fd70a.bindPopup(popup_ccc1e9bc24444136b4b78c94288a54b9)
+        ;
+
+        
+    
+    
+            var marker_1fed25a90fa144f8998df72b66def95a = L.marker(
+                [40.655762, -73.94458],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_61e789a7770f4b0487365409cb78dc33 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e3a4c56404cd4dafa9e22a9b5f09bbb7 = $(`<div id="html_e3a4c56404cd4dafa9e22a9b5f09bbb7" style="width: 100.0%; height: 100.0%;">Kings County Hospital Center</div>`)[0];
+            popup_61e789a7770f4b0487365409cb78dc33.setContent(html_e3a4c56404cd4dafa9e22a9b5f09bbb7);
+        
+
+        marker_1fed25a90fa144f8998df72b66def95a.bindPopup(popup_61e789a7770f4b0487365409cb78dc33)
+        ;
+
+        
+    
+    
+            var marker_be1240e8cd114b22a7a41422be52d3f0 = L.marker(
+                [40.739173, -73.976862],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_0569cb9205094fcf90228870a5c3a52a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0b164471af624b0ebd950f1986a7074c = $(`<div id="html_0b164471af624b0ebd950f1986a7074c" style="width: 100.0%; height: 100.0%;">Bellevue Hospital Center</div>`)[0];
+            popup_0569cb9205094fcf90228870a5c3a52a.setContent(html_0b164471af624b0ebd950f1986a7074c);
+        
+
+        marker_be1240e8cd114b22a7a41422be52d3f0.bindPopup(popup_0569cb9205094fcf90228870a5c3a52a)
+        ;
+
+        
+    
+    
+            var marker_881acca4a2cf48b49b594eb75b37b751 = L.marker(
+                [40.715381, -73.956135],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_348e69fb05dc446fa2724f2840f2a232 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb8598f2b2dd4da6aa4d592c7a4f1513 = $(`<div id="html_bb8598f2b2dd4da6aa4d592c7a4f1513" style="width: 100.0%; height: 100.0%;">Jonathan Williams Houses Child Health Clinic</div>`)[0];
+            popup_348e69fb05dc446fa2724f2840f2a232.setContent(html_bb8598f2b2dd4da6aa4d592c7a4f1513);
+        
+
+        marker_881acca4a2cf48b49b594eb75b37b751.bindPopup(popup_348e69fb05dc446fa2724f2840f2a232)
+        ;
+
+        
+    
+    
+            var marker_922b5f526c4e481f9f7f910e2c9652ec = L.marker(
+                [40.814794, -73.958928],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_146e2bc75da14c17aed4873d085675a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_358343893a9f46e5929bb0fe327b7624 = $(`<div id="html_358343893a9f46e5929bb0fe327b7624" style="width: 100.0%; height: 100.0%;">Grant Houses Clinic</div>`)[0];
+            popup_146e2bc75da14c17aed4873d085675a3.setContent(html_358343893a9f46e5929bb0fe327b7624);
+        
+
+        marker_922b5f526c4e481f9f7f910e2c9652ec.bindPopup(popup_146e2bc75da14c17aed4873d085675a3)
+        ;
+
+        
+    
+    
+            var marker_deb27ae871184efba029ac9aaadbfd7e = L.marker(
+                [40.86164, -73.92459],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_67ab6a7ddd1944e1a63b8ffec842b17e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c49c80df2c9e493cb686c0d5f2c52d09 = $(`<div id="html_c49c80df2c9e493cb686c0d5f2c52d09" style="width: 100.0%; height: 100.0%;">Dyckman Clinica De Las Americas</div>`)[0];
+            popup_67ab6a7ddd1944e1a63b8ffec842b17e.setContent(html_c49c80df2c9e493cb686c0d5f2c52d09);
+        
+
+        marker_deb27ae871184efba029ac9aaadbfd7e.bindPopup(popup_67ab6a7ddd1944e1a63b8ffec842b17e)
+        ;
+
+        
+    
+    
+            var marker_4104f22769a1426981f2884605689cd9 = L.marker(
+                [40.671977, -73.895248],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_ce998fa1ab844100bf7194d65fa52b39 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_618bcb0a28c846ababcc64d7d9b2d6b2 = $(`<div id="html_618bcb0a28c846ababcc64d7d9b2d6b2" style="width: 100.0%; height: 100.0%;">East New York Diagnostic & Treatment Center</div>`)[0];
+            popup_ce998fa1ab844100bf7194d65fa52b39.setContent(html_618bcb0a28c846ababcc64d7d9b2d6b2);
+        
+
+        marker_4104f22769a1426981f2884605689cd9.bindPopup(popup_ce998fa1ab844100bf7194d65fa52b39)
+        ;
+
+        
+    
+    
+            var marker_44ab7c552c6447458d2f31f6104cf6cd = L.marker(
+                [40.664827, -73.911415],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_e3997ea8bf1d42dba67a283faf427cac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df1de57ff6774e1994c83c58860f1fcc = $(`<div id="html_df1de57ff6774e1994c83c58860f1fcc" style="width: 100.0%; height: 100.0%;">Brownsville Child Health Clinic</div>`)[0];
+            popup_e3997ea8bf1d42dba67a283faf427cac.setContent(html_df1de57ff6774e1994c83c58860f1fcc);
+        
+
+        marker_44ab7c552c6447458d2f31f6104cf6cd.bindPopup(popup_e3997ea8bf1d42dba67a283faf427cac)
+        ;
+
+        
+    
+    
+            var marker_1bae894e052b410e90d2efab38561903 = L.marker(
+                [40.586552, -73.966168],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_cf8c65ab7d40490386e4bf25e95013dc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_546f5fcf91ac4b7faeffe908ff10719a = $(`<div id="html_546f5fcf91ac4b7faeffe908ff10719a" style="width: 100.0%; height: 100.0%;">Coney Island Hospital</div>`)[0];
+            popup_cf8c65ab7d40490386e4bf25e95013dc.setContent(html_546f5fcf91ac4b7faeffe908ff10719a);
+        
+
+        marker_1bae894e052b410e90d2efab38561903.bindPopup(popup_cf8c65ab7d40490386e4bf25e95013dc)
+        ;
+
+        
+    
+    
+            var marker_db369ad0fc2b49609f0abdabc1ee630a = L.marker(
+                [40.712046, -73.943989],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_fd84833619d44fd79650735a21e7d6b1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3ef252ed2ae44249b61bf2e7d8a1ef51 = $(`<div id="html_3ef252ed2ae44249b61bf2e7d8a1ef51" style="width: 100.0%; height: 100.0%;">Williamsburg Health Center</div>`)[0];
+            popup_fd84833619d44fd79650735a21e7d6b1.setContent(html_3ef252ed2ae44249b61bf2e7d8a1ef51);
+        
+
+        marker_db369ad0fc2b49609f0abdabc1ee630a.bindPopup(popup_fd84833619d44fd79650735a21e7d6b1)
+        ;
+
+        
+    
+    
+            var marker_daba36d3f79b4d009d5b2ee7e81b57d7 = L.marker(
+                [40.626584, -74.076758],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_e1cc7f63389a4f1fa6b3f9b306fb9f5f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf83454406b54c61ba216022929b224b = $(`<div id="html_bf83454406b54c61ba216022929b224b" style="width: 100.0%; height: 100.0%;">Stapleton Child Health Clinic</div>`)[0];
+            popup_e1cc7f63389a4f1fa6b3f9b306fb9f5f.setContent(html_bf83454406b54c61ba216022929b224b);
+        
+
+        marker_daba36d3f79b4d009d5b2ee7e81b57d7.bindPopup(popup_e1cc7f63389a4f1fa6b3f9b306fb9f5f)
+        ;
+
+        
+    
+    
+            var marker_65d99f9d4882461cb180c15b2418f1cb = L.marker(
+                [40.626017, -74.156541],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_ec234705f7df40fab90545bcddc07628 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f45cc112196e4f83b4348e656cb1ad7b = $(`<div id="html_f45cc112196e4f83b4348e656cb1ad7b" style="width: 100.0%; height: 100.0%;">Mariner's Harbor Houses Child Health Clinic</div>`)[0];
+            popup_ec234705f7df40fab90545bcddc07628.setContent(html_f45cc112196e4f83b4348e656cb1ad7b);
+        
+
+        marker_65d99f9d4882461cb180c15b2418f1cb.bindPopup(popup_ec234705f7df40fab90545bcddc07628)
+        ;
+
+        
+    
+    
+            var marker_9459c75645df4c66ab438cdca20781b8 = L.marker(
+                [40.721721, -73.995732],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_7a7ef68ab5c3491f8652cfc5c4d840ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_256d134b314b4f6196274e5da1ab98aa = $(`<div id="html_256d134b314b4f6196274e5da1ab98aa" style="width: 100.0%; height: 100.0%;">Judson Health Center</div>`)[0];
+            popup_7a7ef68ab5c3491f8652cfc5c4d840ea.setContent(html_256d134b314b4f6196274e5da1ab98aa);
+        
+
+        marker_9459c75645df4c66ab438cdca20781b8.bindPopup(popup_7a7ef68ab5c3491f8652cfc5c4d840ea)
+        ;
+
+        
+    
+    
+            var marker_526e8acb1b43443493d1b9ecb11c556d = L.marker(
+                [40.784557, -73.94378],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_84c33a3ee6164bd2b19790e57a7b72d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f0d3aaff252434ebfa3f873b764f88d = $(`<div id="html_8f0d3aaff252434ebfa3f873b764f88d" style="width: 100.0%; height: 100.0%;">Metropolitan Hospital Center</div>`)[0];
+            popup_84c33a3ee6164bd2b19790e57a7b72d8.setContent(html_8f0d3aaff252434ebfa3f873b764f88d);
+        
+
+        marker_526e8acb1b43443493d1b9ecb11c556d.bindPopup(popup_84c33a3ee6164bd2b19790e57a7b72d8)
+        ;
+
+        
+    
+    
+            var marker_88fa2ee17d4b4e47a38b4cb9e3072e62 = L.marker(
+                [40.874636, -73.85784],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_1fb9eda3082343019bac551ca6a5ab1c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_65fae7afb0574acb8c4f23a2a76cc836 = $(`<div id="html_65fae7afb0574acb8c4f23a2a76cc836" style="width: 100.0%; height: 100.0%;">Gunhill Health Center</div>`)[0];
+            popup_1fb9eda3082343019bac551ca6a5ab1c.setContent(html_65fae7afb0574acb8c4f23a2a76cc836);
+        
+
+        marker_88fa2ee17d4b4e47a38b4cb9e3072e62.bindPopup(popup_1fb9eda3082343019bac551ca6a5ab1c)
+        ;
+
+        
+    
+    
+            var marker_ae9a49ff430d43c2b8c15119b60fbde1 = L.marker(
+                [40.729708, -73.954055],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_c0cfccb6184249febf4e1d0424ab0b52 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee57e0cf69a24a35a0e2a9993a341f16 = $(`<div id="html_ee57e0cf69a24a35a0e2a9993a341f16" style="width: 100.0%; height: 100.0%;">Greenpoint Community Health Center</div>`)[0];
+            popup_c0cfccb6184249febf4e1d0424ab0b52.setContent(html_ee57e0cf69a24a35a0e2a9993a341f16);
+        
+
+        marker_ae9a49ff430d43c2b8c15119b60fbde1.bindPopup(popup_c0cfccb6184249febf4e1d0424ab0b52)
+        ;
+
+        
+    
+    
+            var marker_c0fab44d72f54320afa33616d4fc13d2 = L.marker(
+                [40.717209, -73.803419],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_c49ae054934749c29f2990ed8dd89722 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_13ee55d6b934463b81b597a007ad0757 = $(`<div id="html_13ee55d6b934463b81b597a007ad0757" style="width: 100.0%; height: 100.0%;">Queens Hospital Center</div>`)[0];
+            popup_c49ae054934749c29f2990ed8dd89722.setContent(html_13ee55d6b934463b81b597a007ad0757);
+        
+
+        marker_c0fab44d72f54320afa33616d4fc13d2.bindPopup(popup_c49ae054934749c29f2990ed8dd89722)
+        ;
+
+        
+    
+    
+            var marker_4152d18d405c47bba4305d88271ca8d8 = L.marker(
+                [40.712784, -73.988417],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_e2156e6db8f34f11879e2017c143acf7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1a9284a2c6444c46934e985d57f6b6a3 = $(`<div id="html_1a9284a2c6444c46934e985d57f6b6a3" style="width: 100.0%; height: 100.0%;">Gouverneur Healthcare Services</div>`)[0];
+            popup_e2156e6db8f34f11879e2017c143acf7.setContent(html_1a9284a2c6444c46934e985d57f6b6a3);
+        
+
+        marker_4152d18d405c47bba4305d88271ca8d8.bindPopup(popup_e2156e6db8f34f11879e2017c143acf7)
+        ;
+
+        
+    
+    
+            var marker_6e9c81e187854a39bf451e61a59100cf = L.marker(
+                [40.712784, -73.988417],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_f5751124a60b4a9c88202b30d1b36b4a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8e3bdbd159e842d688984c06fd3c57e3 = $(`<div id="html_8e3bdbd159e842d688984c06fd3c57e3" style="width: 100.0%; height: 100.0%;">Gouverneur Diagnostic & Treatment Center</div>`)[0];
+            popup_f5751124a60b4a9c88202b30d1b36b4a.setContent(html_8e3bdbd159e842d688984c06fd3c57e3);
+        
+
+        marker_6e9c81e187854a39bf451e61a59100cf.bindPopup(popup_f5751124a60b4a9c88202b30d1b36b4a)
+        ;
+
+        
+    
+    
+            var marker_c30a104a09c8434a9efc6d738317b048 = L.marker(
+                [40.712784, -73.988417],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_6f9992f0c27349fb9e334d7b8bc134e7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca7f936b86c14022a0c2da4123b5afd4 = $(`<div id="html_ca7f936b86c14022a0c2da4123b5afd4" style="width: 100.0%; height: 100.0%;">Gouverneur Healthcare Services</div>`)[0];
+            popup_6f9992f0c27349fb9e334d7b8bc134e7.setContent(html_ca7f936b86c14022a0c2da4123b5afd4);
+        
+
+        marker_c30a104a09c8434a9efc6d738317b048.bindPopup(popup_6f9992f0c27349fb9e334d7b8bc134e7)
+        ;
+
+        
+    
+    
+            var marker_5b8e597aace54af3acdb92368113a846 = L.marker(
+                [40.691986, -73.982496],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_9bbd453b8b40490c8d735ad9306dc706 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_934366e268fd4f4c987e4af2b3c373aa = $(`<div id="html_934366e268fd4f4c987e4af2b3c373aa" style="width: 100.0%; height: 100.0%;">Fort Greene Child Health Clinic</div>`)[0];
+            popup_9bbd453b8b40490c8d735ad9306dc706.setContent(html_934366e268fd4f4c987e4af2b3c373aa);
+        
+
+        marker_5b8e597aace54af3acdb92368113a846.bindPopup(popup_9bbd453b8b40490c8d735ad9306dc706)
+        ;
+
+        
+    
+    
+            var marker_36cfb2796fda436cb3c160e1e73f815e = L.marker(
+                [40.756368, -73.956054],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_ab810323ecbd4b038bff4e12910339c7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_562b326172264d048a6fc304183d687c = $(`<div id="html_562b326172264d048a6fc304183d687c" style="width: 100.0%; height: 100.0%;">Coler-Goldwater Specialty Hospital and Nursing Facility/Goldwater Campus</div>`)[0];
+            popup_ab810323ecbd4b038bff4e12910339c7.setContent(html_562b326172264d048a6fc304183d687c);
+        
+
+        marker_36cfb2796fda436cb3c160e1e73f815e.bindPopup(popup_ab810323ecbd4b038bff4e12910339c7)
+        ;
+
+        
+    
+    
+            var marker_d4a4b71ed69a40c49f409cf8dfa8189f = L.marker(
+                [40.671892, -73.878197],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_271525647a5449e4836b2c23e2c1d2fc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_73dd6f2f0ea04d9f8548eb156b1700c6 = $(`<div id="html_73dd6f2f0ea04d9f8548eb156b1700c6" style="width: 100.0%; height: 100.0%;">Sutter Avenue Child Health Clinic</div>`)[0];
+            popup_271525647a5449e4836b2c23e2c1d2fc.setContent(html_73dd6f2f0ea04d9f8548eb156b1700c6);
+        
+
+        marker_d4a4b71ed69a40c49f409cf8dfa8189f.bindPopup(popup_271525647a5449e4836b2c23e2c1d2fc)
+        ;
+
+        
+    
+    
+            var marker_f2344b31046a46df9a4d6c3fe7c2732a = L.marker(
+                [40.821706, -73.94273],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_adea1e3695754daa92c1d9e8b2c6fddf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f203a00c5a848c1a1d971bafacaabbe = $(`<div id="html_8f203a00c5a848c1a1d971bafacaabbe" style="width: 100.0%; height: 100.0%;">Drew Hamilton Houses Health Center</div>`)[0];
+            popup_adea1e3695754daa92c1d9e8b2c6fddf.setContent(html_8f203a00c5a848c1a1d971bafacaabbe);
+        
+
+        marker_f2344b31046a46df9a4d6c3fe7c2732a.bindPopup(popup_adea1e3695754daa92c1d9e8b2c6fddf)
+        ;
+
+        
+    
+    
+            var marker_652fc9f77dc64bcfa2bc4ec6c36f07a2 = L.marker(
+                [40.753164, -73.910752],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_854bed0ce3184f8f8d8811f152e65579 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5caf60b4b92c45f9ac29d8d44a309b65 = $(`<div id="html_5caf60b4b92c45f9ac29d8d44a309b65" style="width: 100.0%; height: 100.0%;">Woodside Houses Child Health Clinic</div>`)[0];
+            popup_854bed0ce3184f8f8d8811f152e65579.setContent(html_5caf60b4b92c45f9ac29d8d44a309b65);
+        
+
+        marker_652fc9f77dc64bcfa2bc4ec6c36f07a2.bindPopup(popup_854bed0ce3184f8f8d8811f152e65579)
+        ;
+
+        
+    
+    
+            var marker_021b844c9f0a407eb0f5e34f2609e230 = L.marker(
+                [40.814358, -73.940659],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_5c4e043f9fdc406ab2d28c15cca90a19 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_30489f984fe74c18bd28867a7c8b203b = $(`<div id="html_30489f984fe74c18bd28867a7c8b203b" style="width: 100.0%; height: 100.0%;">Harlem Hospital Center</div>`)[0];
+            popup_5c4e043f9fdc406ab2d28c15cca90a19.setContent(html_30489f984fe74c18bd28867a7c8b203b);
+        
+
+        marker_021b844c9f0a407eb0f5e34f2609e230.bindPopup(popup_5c4e043f9fdc406ab2d28c15cca90a19)
+        ;
+
+        
+    
+    
+            var marker_878aab6826444339b590d1f0f818d651 = L.marker(
+                [40.586552, -73.966168],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_f64bd4ce54e341b5831973e564199d33 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c9472898a57c48fd97cc47f0bcac8062 = $(`<div id="html_c9472898a57c48fd97cc47f0bcac8062" style="width: 100.0%; height: 100.0%;">Coney Island Hospital</div>`)[0];
+            popup_f64bd4ce54e341b5831973e564199d33.setContent(html_c9472898a57c48fd97cc47f0bcac8062);
+        
+
+        marker_878aab6826444339b590d1f0f818d651.bindPopup(popup_f64bd4ce54e341b5831973e564199d33)
+        ;
+
+        
+    
+    
+            var marker_7be029709168422dba8f183318276e2e = L.marker(
+                [40.844083, -73.894482],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_26d6b4483ee544aca838db07d6f69862 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5710a9c6013a4e0fa404fe22d9f85763 = $(`<div id="html_5710a9c6013a4e0fa404fe22d9f85763" style="width: 100.0%; height: 100.0%;">Health Center at Tremont</div>`)[0];
+            popup_26d6b4483ee544aca838db07d6f69862.setContent(html_5710a9c6013a4e0fa404fe22d9f85763);
+        
+
+        marker_7be029709168422dba8f183318276e2e.bindPopup(popup_26d6b4483ee544aca838db07d6f69862)
+        ;
+
+        
+    
+    
+            var marker_ce590e229833479daf0efd1b7e23fc73 = L.marker(
+                [40.880462, -73.88164],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_096a89737ece491fbadbcdb18c9a9c7b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d724f4dc054745b381155b88e0ff88bf = $(`<div id="html_d724f4dc054745b381155b88e0ff88bf" style="width: 100.0%; height: 100.0%;">North Central Bronx Hospital</div>`)[0];
+            popup_096a89737ece491fbadbcdb18c9a9c7b.setContent(html_d724f4dc054745b381155b88e0ff88bf);
+        
+
+        marker_ce590e229833479daf0efd1b7e23fc73.bindPopup(popup_096a89737ece491fbadbcdb18c9a9c7b)
+        ;
+
+        
+    
+    
+            var marker_870e901b906f445c96fcbbb4f659c0a5 = L.marker(
+                [40.67353, -73.935845],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_b4fff529d51947eb825d619697370ad3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e01eb21e8ffb4b0bac6a6c7be98806d6 = $(`<div id="html_e01eb21e8ffb4b0bac6a6c7be98806d6" style="width: 100.0%; height: 100.0%;">Crown Heights Child Health Clinic</div>`)[0];
+            popup_b4fff529d51947eb825d619697370ad3.setContent(html_e01eb21e8ffb4b0bac6a6c7be98806d6);
+        
+
+        marker_870e901b906f445c96fcbbb4f659c0a5.bindPopup(popup_b4fff529d51947eb825d619697370ad3)
+        ;
+
+        
+    
+    
+            var marker_07db686d260a43e9a03e2528d090e71f = L.marker(
+                [40.716079, -73.980373],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_d8ced8b27dbc434fa28528895a9d09b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1a3ed360c3f04923824aad2fc3a690d4 = $(`<div id="html_1a3ed360c3f04923824aad2fc3a690d4" style="width: 100.0%; height: 100.0%;">Baruch Houses Family Health Center</div>`)[0];
+            popup_d8ced8b27dbc434fa28528895a9d09b9.setContent(html_1a3ed360c3f04923824aad2fc3a690d4);
+        
+
+        marker_07db686d260a43e9a03e2528d090e71f.bindPopup(popup_d8ced8b27dbc434fa28528895a9d09b9)
+        ;
+
+        
+    
+    
+            var marker_872203385cfc4d4d9d34e28cde571da5 = L.marker(
+                [40.697945, -73.941018],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_8103d1c6ddb6448382a2f9081a0a9bf3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ceb30ec303d74f56b4f777dee28f9445 = $(`<div id="html_ceb30ec303d74f56b4f777dee28f9445" style="width: 100.0%; height: 100.0%;">Sumner Avenue Houses Child Health Clinic</div>`)[0];
+            popup_8103d1c6ddb6448382a2f9081a0a9bf3.setContent(html_ceb30ec303d74f56b4f777dee28f9445);
+        
+
+        marker_872203385cfc4d4d9d34e28cde571da5.bindPopup(popup_8103d1c6ddb6448382a2f9081a0a9bf3)
+        ;
+
+        
+    
+    
+            var marker_1ba7e5cc47ef4f9f96b7d8c67818cb6e = L.marker(
+                [40.700528, -73.941604],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_dd59f6d76eae4c6fa47e91c7e9195a46 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_22680513a51e4eb59afb6a556a648b07 = $(`<div id="html_22680513a51e4eb59afb6a556a648b07" style="width: 100.0%; height: 100.0%;">Woodhull Medical and Mental Health Center</div>`)[0];
+            popup_dd59f6d76eae4c6fa47e91c7e9195a46.setContent(html_22680513a51e4eb59afb6a556a648b07);
+        
+
+        marker_1ba7e5cc47ef4f9f96b7d8c67818cb6e.bindPopup(popup_dd59f6d76eae4c6fa47e91c7e9195a46)
+        ;
+
+        
+    
+    
+            var marker_b4403b09268744a9a244b4a00cd62fec = L.marker(
+                [40.684318, -73.909056],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_3c9685bf4ec842d99ef4018021a340a8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d021765aacf545acb84d000a4452e214 = $(`<div id="html_d021765aacf545acb84d000a4452e214" style="width: 100.0%; height: 100.0%;">Bushwick Community Health Center</div>`)[0];
+            popup_3c9685bf4ec842d99ef4018021a340a8.setContent(html_d021765aacf545acb84d000a4452e214);
+        
+
+        marker_b4403b09268744a9a244b4a00cd62fec.bindPopup(popup_3c9685bf4ec842d99ef4018021a340a8)
+        ;
+
+        
+    
+    
+            var marker_0fa65ccdf7bd48029842a0ef96ecfa64 = L.marker(
+                [40.739173, -73.976862],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_07493c7d2afb4e16b30bce9f4433895b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_84862d86977f4590adc44920ad0128de = $(`<div id="html_84862d86977f4590adc44920ad0128de" style="width: 100.0%; height: 100.0%;">Bellevue Hospital Center</div>`)[0];
+            popup_07493c7d2afb4e16b30bce9f4433895b.setContent(html_84862d86977f4590adc44920ad0128de);
+        
+
+        marker_0fa65ccdf7bd48029842a0ef96ecfa64.bindPopup(popup_07493c7d2afb4e16b30bce9f4433895b)
+        ;
+
+        
+    
+    
+            var marker_a1cdb682c2c04c0eb6289a0bda369745 = L.marker(
+                [40.702972, -73.905489],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_1a30c16a4adf4ca69642f145851af86a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_79808b0f9ef540eaaa2614a534219419 = $(`<div id="html_79808b0f9ef540eaaa2614a534219419" style="width: 100.0%; height: 100.0%;">Ridgewood Communicare Clinic</div>`)[0];
+            popup_1a30c16a4adf4ca69642f145851af86a.setContent(html_79808b0f9ef540eaaa2614a534219419);
+        
+
+        marker_a1cdb682c2c04c0eb6289a0bda369745.bindPopup(popup_1a30c16a4adf4ca69642f145851af86a)
+        ;
+
+        
+    
+    
+            var marker_15b4dd914645424db1c4be2ee2fbb179 = L.marker(
+                [40.712019, -73.997309],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_7a2b9d3121694dd5899a038bcf08077e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_237dfa114ea042bd899428dbfc13f947 = $(`<div id="html_237dfa114ea042bd899428dbfc13f947" style="width: 100.0%; height: 100.0%;">Smith Communicare Health Center</div>`)[0];
+            popup_7a2b9d3121694dd5899a038bcf08077e.setContent(html_237dfa114ea042bd899428dbfc13f947);
+        
+
+        marker_15b4dd914645424db1c4be2ee2fbb179.bindPopup(popup_7a2b9d3121694dd5899a038bcf08077e)
+        ;
+
+        
+    
+    
+            var marker_10bf70ab75854ae98d4697ce14d3bfc5 = L.marker(
+                [40.835957, -73.919986],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_735e12dc76a1481a838d9359ec7679df = L.popup({"maxWidth": "100%"});
+
+        
+            var html_76ca72ad10b84b949fbe37c84a57f9f5 = $(`<div id="html_76ca72ad10b84b949fbe37c84a57f9f5" style="width: 100.0%; height: 100.0%;">Morrisania Diagnostic & Treatment Center</div>`)[0];
+            popup_735e12dc76a1481a838d9359ec7679df.setContent(html_76ca72ad10b84b949fbe37c84a57f9f5);
+        
+
+        marker_10bf70ab75854ae98d4697ce14d3bfc5.bindPopup(popup_735e12dc76a1481a838d9359ec7679df)
+        ;
+
+        
+    
+    
+            var marker_f2fcf8327b5c434a81471170ece58f55 = L.marker(
+                [40.8448, -73.8648],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+            var icon_bde92f36052b42ec8c5edcb0b5ce9ec6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f2fcf8327b5c434a81471170ece58f55.setIcon(icon_bde92f36052b42ec8c5edcb0b5ce9ec6);
+        
+    
+        var popup_8fb0475ae3564c7c9b328122a9117592 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_915db87ca0e44cecaecadaeea79d88d7 = $(`<div id="html_915db87ca0e44cecaecadaeea79d88d7" style="width: 100.0%; height: 100.0%;">Total Number of Bronx Clinics in 2011: 14</div>`)[0];
+            popup_8fb0475ae3564c7c9b328122a9117592.setContent(html_915db87ca0e44cecaecadaeea79d88d7);
+        
+
+        marker_f2fcf8327b5c434a81471170ece58f55.bindPopup(popup_8fb0475ae3564c7c9b328122a9117592)
+        ;
+
+        
+    
+    
+            var circle_marker_24eb02a1ec594ccb996c93ed41a42bc6 = L.circleMarker(
+                [40.8448, -73.8648],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_445d957c7c334705b34e258b48b89eb0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f673c56ba0e84c22a7d09696b89a0975 = $(`<div id="html_f673c56ba0e84c22a7d09696b89a0975" style="width: 100.0%; height: 100.0%;">Total Bronx Homeless Population in 2011: 115</div>`)[0];
+            popup_445d957c7c334705b34e258b48b89eb0.setContent(html_f673c56ba0e84c22a7d09696b89a0975);
+        
+
+        circle_marker_24eb02a1ec594ccb996c93ed41a42bc6.bindPopup(popup_445d957c7c334705b34e258b48b89eb0)
+        ;
+
+        
+    
+    
+            var marker_53e0abb9106346c79ebfce90e7f578a2 = L.marker(
+                [40.6782, -73.9442],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+            var icon_eeb5151e80394d75babd92e48973d117 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_53e0abb9106346c79ebfce90e7f578a2.setIcon(icon_eeb5151e80394d75babd92e48973d117);
+        
+    
+        var popup_643b67b30d11454ea7545c45002425d7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2a88dcdba5d24f748a760f2dcbbf38f3 = $(`<div id="html_2a88dcdba5d24f748a760f2dcbbf38f3" style="width: 100.0%; height: 100.0%;">Total Number of Brooklyn Clinics in 2011: 26</div>`)[0];
+            popup_643b67b30d11454ea7545c45002425d7.setContent(html_2a88dcdba5d24f748a760f2dcbbf38f3);
+        
+
+        marker_53e0abb9106346c79ebfce90e7f578a2.bindPopup(popup_643b67b30d11454ea7545c45002425d7)
+        ;
+
+        
+    
+    
+            var circle_marker_da82883b52bb45c187141c9a642fddfa = L.circleMarker(
+                [40.6782, -73.9442],
+                {"bubblingMouseEvents": true, "color": "#31ccc7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#31ccc7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_96a7702c2aff41b5bcdbfe88cfff8430 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d236d66fc6c4463da075896d0ee5c251 = $(`<div id="html_d236d66fc6c4463da075896d0ee5c251" style="width: 100.0%; height: 100.0%;">Total Brooklyn Homeless Population in 2011: 242</div>`)[0];
+            popup_96a7702c2aff41b5bcdbfe88cfff8430.setContent(html_d236d66fc6c4463da075896d0ee5c251);
+        
+
+        circle_marker_da82883b52bb45c187141c9a642fddfa.bindPopup(popup_96a7702c2aff41b5bcdbfe88cfff8430)
+        ;
+
+        
+    
+    
+            var marker_2b1c84f7f37b428992769d9243789791 = L.marker(
+                [40.7831, -73.9712],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+            var icon_84c045d61c58431fbac78f72c136765b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2b1c84f7f37b428992769d9243789791.setIcon(icon_84c045d61c58431fbac78f72c136765b);
+        
+    
+        var popup_a443e08ab75340b78acc0e2504ea9c1b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1d058bb38edc49b99f6a94e401280c0c = $(`<div id="html_1d058bb38edc49b99f6a94e401280c0c" style="width: 100.0%; height: 100.0%;">Total Number of Manhattan Clinics in 2011: 24</div>`)[0];
+            popup_a443e08ab75340b78acc0e2504ea9c1b.setContent(html_1d058bb38edc49b99f6a94e401280c0c);
+        
+
+        marker_2b1c84f7f37b428992769d9243789791.bindPopup(popup_a443e08ab75340b78acc0e2504ea9c1b)
+        ;
+
+        
+    
+    
+            var circle_marker_993dd6cf337e4e3989df494e2b630167 = L.circleMarker(
+                [40.7831, -73.9712],
+                {"bubblingMouseEvents": true, "color": "#31cc48", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#31cc48", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_d7babb8673b643cf855ea59b4a19b6a8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_96b4d412d61641b184ad3c334beae7bb = $(`<div id="html_96b4d412d61641b184ad3c334beae7bb" style="width: 100.0%; height: 100.0%;">Total Manhattan Homeless Population in 2011: 786</div>`)[0];
+            popup_d7babb8673b643cf855ea59b4a19b6a8.setContent(html_96b4d412d61641b184ad3c334beae7bb);
+        
+
+        circle_marker_993dd6cf337e4e3989df494e2b630167.bindPopup(popup_d7babb8673b643cf855ea59b4a19b6a8)
+        ;
+
+        
+    
+    
+            var marker_2628ab6740464b9b9c865160d5344719 = L.marker(
+                [40.7282, -73.7949],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+            var icon_7084ccdedd764cafac568c0ccc6c1356 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2628ab6740464b9b9c865160d5344719.setIcon(icon_7084ccdedd764cafac568c0ccc6c1356);
+        
+    
+        var popup_83460a9702ba43a2be7c6750ddb55a13 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a0a792b1818419a8e5b90c455129d55 = $(`<div id="html_0a0a792b1818419a8e5b90c455129d55" style="width: 100.0%; height: 100.0%;">Total Number of Queens Clinics in 2011: 11</div>`)[0];
+            popup_83460a9702ba43a2be7c6750ddb55a13.setContent(html_0a0a792b1818419a8e5b90c455129d55);
+        
+
+        marker_2628ab6740464b9b9c865160d5344719.bindPopup(popup_83460a9702ba43a2be7c6750ddb55a13)
+        ;
+
+        
+    
+    
+            var circle_marker_43346c7438c24d3d932ceec0151dd551 = L.circleMarker(
+                [40.7282, -73.7949],
+                {"bubblingMouseEvents": true, "color": "#a5cc31", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a5cc31", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_33368f4202114dc1af995f0c1ca9f2eb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a88986a4e5054b9fbb675ae37c94f52a = $(`<div id="html_a88986a4e5054b9fbb675ae37c94f52a" style="width: 100.0%; height: 100.0%;">Total Queens Homeless Population in 2011: 102</div>`)[0];
+            popup_33368f4202114dc1af995f0c1ca9f2eb.setContent(html_a88986a4e5054b9fbb675ae37c94f52a);
+        
+
+        circle_marker_43346c7438c24d3d932ceec0151dd551.bindPopup(popup_33368f4202114dc1af995f0c1ca9f2eb)
+        ;
+
+        
+    
+    
+            var marker_48ce8573711748efa56cb8862e05bb45 = L.marker(
+                [40.5795, -74.1502],
+                {}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+            var icon_67d76678a9c242048901a59cabb970f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_48ce8573711748efa56cb8862e05bb45.setIcon(icon_67d76678a9c242048901a59cabb970f0);
+        
+    
+        var popup_2e4943f7400742d8aba7eabf9989d49c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_de314f1327a34cf7a8ad1e0dcb99632d = $(`<div id="html_de314f1327a34cf7a8ad1e0dcb99632d" style="width: 100.0%; height: 100.0%;">Total Number of Staten Island Clinics in 2011: 3</div>`)[0];
+            popup_2e4943f7400742d8aba7eabf9989d49c.setContent(html_de314f1327a34cf7a8ad1e0dcb99632d);
+        
+
+        marker_48ce8573711748efa56cb8862e05bb45.bindPopup(popup_2e4943f7400742d8aba7eabf9989d49c)
+        ;
+
+        
+    
+    
+            var circle_marker_954d81f6d22641868e54a751fcb713c7 = L.circleMarker(
+                [40.5795, -74.1502],
+                {"bubblingMouseEvents": true, "color": "#cca831", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#cca831", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(map_d9173d13067e4681bb7637a81054a51e);
+        
+    
+        var popup_afbfe8c7ab414da9b36bf22eb6bb0fb5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_edc5b50ffc784eefbc45b59e8146d165 = $(`<div id="html_edc5b50ffc784eefbc45b59e8146d165" style="width: 100.0%; height: 100.0%;">Total Staten Island Homeless Population in 2011: 128</div>`)[0];
+            popup_afbfe8c7ab414da9b36bf22eb6bb0fb5.setContent(html_edc5b50ffc784eefbc45b59e8146d165);
+        
+
+        circle_marker_954d81f6d22641868e54a751fcb713c7.bindPopup(popup_afbfe8c7ab414da9b36bf22eb6bb0fb5)
+        ;
+
+        
+    
+</script>
