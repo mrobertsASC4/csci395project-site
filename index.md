@@ -1,6 +1,7 @@
-# The Effect of the Number of Health Clinics on Homelessness
 
 ![Image](HOMELESS_02.0.jpg)
+# The Effect of the Number of Health Clinics on Homelessness
+
 
 ### Overview:
 Watching the news and through everyday observation, there has been an increase in homelessness in neighborhoods that have limited access to health clinics, shelters and 
