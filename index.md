@@ -1,5 +1,5 @@
 # The Effect of the Number of Health Clinics on Homelessness
-
+## By: Matthew Roberts
 ![Image](HOMELESS_02.0.jpg)
 
 ### Overview:
