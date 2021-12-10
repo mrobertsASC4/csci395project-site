@@ -1,10 +1,18 @@
+![Image](HOMELESS_02.0.jpg)
 ## The Effect of the Lack of Health Clinics on Homelessness
 
+### Overview:
 Watching the news and through everyday observation, there has been an increase in homelessness in neighborhoods that have limited access to health clinics, shelters and 
 services. I am going to use my project to display the correlation between the number of mental health clinics in neighborhoods and the rate of homelessness, while also delving deeper and looking into specific areas/districts in the neighborhood and their homelessness rate, and compare them to its attendance in new people looking for shelter and the amount of homeless individuals that reside in shelters in the area, even with the clinics availaible. This data, in turn, would further my current solution to facilitate more health clinics in areas with a high rate of impoverishment, so that more individuals would start to reside in shelters.
 
 I downloaded the data I obtained as CSV files and have read them in as separate Dataframes. I have used pandas and its functions to use specific columns I need for my data. For starters, I started with my data on Homelessness Numbers from 2009-2012. This is how I parsed it to use what I needed:
 
+### Data:
+To start, I did something.
+![Image](homelessEstimatesPerYearByBoroughGraph.png)
+![Image](homelessEstimatesAndNumClinics2011.png)
+![Image](homelessEstimatesAndTotalIndividualsInShelter.png)
+![Image](totalIndividualsPerYearByBoroughGraph.png)
 ```
 homeless_roster = pd.read_csv('Directory_Of_Homeless_Population_By_Year.csv')
 homeless_roster['Borough'] = homeless_roster['Area']
@@ -100,3 +108,9 @@ _This centers the map on Hunter's location. Then, I create a map using folium, a
 This map gives a visual representation of where the clinics are in NYC and shows the respective total amounts of homeless individuals and clinics in the specific borough.
 
 This is what I have so far, but I plan to include more analysis and visualizations once I get more of this data to use and cooperate with.
+
+### Techniques: 
+
+
+### Citations:
+
