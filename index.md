@@ -1,4 +1,4 @@
-
+# The Effect of the Number of Health Clinics on Homelessness
 
 ![Image](HOMELESS_02.0.jpg)
 
